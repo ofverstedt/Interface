@@ -1,0 +1,28 @@
+.menyfoto{
+	width:21%;
+	height:99%;
+}
+
+.meny{
+
+	width:99%;
+	height:17%;
+	background-color:#1f548e; 
+}
+
+.rubriker{
+
+	display:inline-block;
+	font-size: 20px;
+	font-family: Arial; 
+	width: 20%
+	height:20%;
+	color:#ffffff;
+}
+
+#gulkant{
+height:20%;
+color:#FFCC00;
+
+}
+
