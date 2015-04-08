@@ -1,12 +1,12 @@
 .menyfoto{
-	width:21%;
+	width:10%;
 	height:99%;
 }
 
 .meny{
 
-	width:99%;
-	height:17%;
+	width:100%;
+	height:10%;
 	background-color:#1f548e; 
 }
 
@@ -20,9 +20,40 @@
 	color:#ffffff;
 }
 
-#gulkant{
-height:20%;
-color:#FFCC00;
+.gulkant{
+
+height:2%;
+width: 100%;
+background-color:#FFCC00;
+}
+
+.searchbar{
+	float: right;
+}
+
+.checkleft{
+	float: left;
+	width:21%;
+	height:60%;
+	
+	overflow: scroll;
+}
+
+.widgets{
+	float: bottom;
+	width:100%;
+	height:30%;
+	overflow: scroll;
+}
+
+.map{
+	float: right;
+	width:79%;
+	height:60%;
+	overflow: scroll;
 
 }
 
+.kartfoto{
+	
+}
