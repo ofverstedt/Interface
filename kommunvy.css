@@ -15,7 +15,7 @@
 	display:inline-block;
 	font-size: 20px;
 	font-family: Arial; 
-	width: 20%
+	width: 20%;
 	height:20%;
 	color:#ffffff;
 }
@@ -30,13 +30,33 @@ background-color:#FFCC00;
 .searchbar{
 	float: right;
 }
+.lefthigh{
+	display:inline-block;
+	font-size: 20px;
+	font-family: Arial; 
+	width: 20%;
+	height:20%;
+	color:#ffffff;
 
-.checkleft{
+
+}
+
+/*leftlow{
 	float: left;
 	width:21%;
-	height:60%;
-	
-	overflow: scroll;
+	height:50%;
+
 }
+.righthigh{
+	float: right;
+	width:21%;
+	height:100%;
+	}
+.rightlow{
+	float: right;
+	width:21%;
+	height:50%;
+
+}*/
 
 
