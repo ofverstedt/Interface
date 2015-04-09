@@ -35,8 +35,10 @@ background-color:#FFCC00;
 	float: left;
 	width:21%;
 	height:60%;
-	
 	overflow: scroll;
+	position: absolute;
+	background-color: rgba(255,255,255,0.4);
+
 }
 
 .widgets{
@@ -47,13 +49,14 @@ background-color:#FFCC00;
 }
 
 .map{
+	background-image: url("http://vb.uppsala.se/PageFiles/4281/kartbild_redigerad-1.jpg"); 
 	float: right;
-	width:79%;
-	height:60%;
+	width:100%;
+	height:61%;
 	overflow: scroll;
-
 }
 
-.kartfoto{
-	
+table{
+	border: 1px solid;
+	width: 100%;
 }
