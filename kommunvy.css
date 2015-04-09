@@ -40,6 +40,10 @@ background-color:#FFCC00;
 
 
 }
+button:hover{
+background-image:none;
+background-color:#C0C0C0;
+}
 
 /*leftlow{
 	float: left;
