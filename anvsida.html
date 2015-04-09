@@ -5,7 +5,7 @@
 
 <title>Uppsala Municipality</title>	
 <link rel="stylesheet" type="text/css" href="anvsida.css">
-<script src="jquery-1.11.1.js"></script>
+<script src="jquery-1.8.3.js"></script>
 <script type="text/javascript" src="anvsida.js"></script>
 </head>
 
@@ -23,8 +23,9 @@
 
 
 <form class="searchbar">
-<input type="text" class="searchbar" value="Seach on Uppsala.se"/>
+<input type="text" class="searchbar knapp" value="Seach on Uppsala.se"/>
 </form>
+	
 
 </div>
 
@@ -37,33 +38,27 @@
 <div class="map">
 	
 	<div class="checkleft">
-		<table id="check">
+		<table id="checkTable">
 			<thead>
-				<tr >
+				<tr>
 				<th width="100%"> Alternativ </th>
 				</tr>
 			</thead>
+
 			<tbody>
-				<tr class="header">
-					<td colspan="1"> Cykelinformation </td>
-				</tr>
-				<tr>
-					<td class="alternativ">Hej</td>
-					<tr></tr>
-					<td class="alternativ">Hej</td>
-					<tr></tr>
-					<td class="alternativ">Hej</td>
-				</tr>
-				<tr class="header">
-					<td colspan="1">Social Media</td>
-				</tr>
-				<tr>
-					<td class="alternativ">Hej</td>
-					<tr></tr>
-					<td class="alternativ">Hej</td>
-					<tr></tr>
-					<td class="alternativ">Hej</td>
-				</tr>
+
+				<tr class="header"> <td colspan="1">Cykelinformation</td> </tr>
+				<tr class="child" id="1"> <td>Cykelpumpar</td> </tr>
+				<tr class="child" id="1"> <td>Cykelverkstäder</td> </tr>
+				<tr class="child" id="1"> <td>"Cykelvägar"</td> </tr>
+					
+				<tr class="header"> <td colspan="1">Social Media</td> </tr>
+				<tr class="child" id="2"> <td>Twitterflöden</td> </tr>
+				<tr class="child" id="2"> <td>#Hashtags</td> </tr>
+				<tr class="child" id="2"> <td>What's up Uppsala</td> </tr>
+				
+				<tr class="header" id="3"> <td colspan="1">Issue Reporting</td> </tr>
+
 			</tbody>
 		</table>
 	</div>
