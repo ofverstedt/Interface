@@ -60,7 +60,17 @@ background-color:#FFCC00;
 	overflow: scroll;
 }
 
+thead{
+	font-weight: bold;
+	font-size: 18pt;
+	background-color: rgba(255,255,255,0.6);
+}
+
 table{
-	border: 1px solid;
+	font-family: arial;
 	width: 100%;
+	border-collapse: collapse;
+	background-color: rgba(255,255,255,0.3);
+	color: gray;
+
 }
