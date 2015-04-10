@@ -1,3 +1,10 @@
+body{
+margin:0;
+padding:0;
+
+
+}
+
 .menyfoto{
 	width:10%;
 	height:99%;
@@ -14,9 +21,17 @@
 
 	display:inline-block;
 	font-size: 20px;
-	font-family: Arial; 
+	font-family: "Arial"; 
 	width: 20%;
 	height:20%;
+	padding: 0%;
+	color:#ffffff;
+		
+}
+.knappRubrik{
+	display:inline-block;
+	font-size: 20px;
+	font-family: "Arial";
 	color:#ffffff;
 }
 
@@ -30,37 +45,46 @@ background-color:#FFCC00;
 .searchbar{
 	float: right;
 }
-.lefthigh{
+
+.div{
+	background-color: #000000;
+	background-image: 
+url('http://www.designbolts.com/wp-content/uploads/2013/02/Cute-Grey-Tilable-Pattern-For-Website-Background.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.btn{
+	padding: 5%;
+	margin: 0 auto 0 auto;
+	/*margin: 5% 4%;*/
 	display:inline-block;
-	font-size: 20px;
-	font-family: Arial; 
-	width: 20%;
-	height:20%;
-	color:#ffffff;
-	margin: 15% 40%;
-
+	width:23%;
+	height:23%;
+	/*background-color: #000000;*/
 }
+
+.knappar{
+	-webkit-border-radius: 5%;
+	-moz-border-radius: 10%;
+	border-radius: 10%;
+	margin: 7% 7%;
+	width:80%;
+	height:80%;
+	background-color:#1f548e; 
+	font-color:#ffffff;
+}
+
 button:hover{
-background-image:none;
-background-color:#C0C0C0;
+	background-image:none;
+	color:#000000;
+	background:#416E9F;
+	text-decoration: underline;
+	font-size: 26px;
 }
 
-/*leftlow{
-	float: left;
-	width:21%;
-	height:50%;
-
+#hej4 {
+/*margin: 0 auto 0 auto;*/
 }
-.righthigh{
-	float: right;
-	width:21%;
-	height:100%;
-	}
-.rightlow{
-	float: right;
-	width:21%;
-	height:50%;
-
-}*/
 
 
