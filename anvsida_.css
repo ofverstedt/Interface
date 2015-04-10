@@ -19,13 +19,13 @@
 }
 
 .gulkant{
-height:2%;
-width: 100%;
-background-color:#FFCC00;
+	height:2%;
+	width: 100%;
+	background-color:#FFCC00;
 }
 
 .searchbar{
-float: right;
+	float: right;
 }
 
 .checkleft{
@@ -37,19 +37,13 @@ float: right;
 	background-color: rgba(255,255,255,0.4);
 }
 
-.widgets{
-	float: bottom;
-	width:100%;
-	height:30%;
-	overflow: scroll;
-}
+
 
 .map{
 	background-image: url("http://vb.uppsala.se/PageFiles/4281/kartbild_redigerad-1.jpg"); 
 	float: right;
 	width:100%;
 	height:61%;
-	overflow: scroll;
 }
 
 thead{
@@ -80,11 +74,46 @@ td{
 }
 
 .child{
-
+	cursor: pointer;
 	font-family:Arial;
 	font-size: 11pt;
 }
 
-tr:hover{
-background-color: rgba(255,255,255,0.9);
+.tr:hover{
+	background-color: rgba(0,255,255,0.9);
+}
+
+.widgetsMain{
+	float: bottom;
+	width:100%;
+	height:28%;
+	overflow: scroll;
+}
+
+.widget{
+	height: 80%;
+	width: 30%;
+	
+	border: 1px;
+}
+
+
+#BikeInfo{
+	display: none;
+	float: left;
+}
+
+#SocialMedia{
+	display: none;
+	float:right;
+}
+
+.MediaPic{
+	height: 100%;
+	width: 50%;
+}
+
+.bikePic{
+	height: 100%;
+	width: 50%;
 }
