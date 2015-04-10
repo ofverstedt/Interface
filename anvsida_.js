@@ -15,7 +15,7 @@ $(document).ready(function(){
 		.click(function(){
 			$(this).siblings('.child-'+this.id).toggle('fast');
 		});
-	$('tr[class^=child]').hide().children('tr');
+	$('tr[class^=child-]').hide().children('tr');
 
 
 
