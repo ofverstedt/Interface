@@ -7,9 +7,13 @@ $(document).ready(function(){
 
 	$("#2").click(function(){
 		
-		$('#SocialMedia').fadeToggle('fast');
+		$('#socialMedia').fadeToggle('fast');
 	});
 
+	$("#3").click(function(){
+		
+		$('#issueReporting').fadeToggle('fast');
+	});
 
 	$('tr.header')
 		.click(function(){
