@@ -3,7 +3,8 @@
     <title>Issue report</title>
     <link type="text/css" rel="stylesheet" href="IssueReport.css">
     <script src="jquery-1.11.1_.js"></script>
-    <script src="anvsida_.js"></script>
+    <script src="issueScript.js"></script>
+
 
 </head>
 
@@ -43,17 +44,16 @@
 
             <tbody>
 
-                <a href="#"><tr class="header" id="1"> <td colspan="1">Bikeinfo</td> </tr></a>
-                <tr class="child-1"> <td>Pumpstations</td> </tr>
-                <tr class="child-1"> <td>Bikeshops</td> </tr>
-                <tr class="child-1"> <td>Roads</td> </tr>
+                <a href="#"><tr class="header" id="1"> <td colspan="1">Areas</td> </tr></a>
+                <a href="#"><tr class="child-1"> <td>Fålhagen</td> </tr></a>
+                <a href="#"><tr class="child-1"> <td>Kåbo</td> </tr></a>
+                <a href="#"><tr class="child-1"> <td>Stenhagen</td> </tr></a>
+                <a href="#"><tr class="child-1"> <td>Svartbäcken</td> </tr></a>
 
-                <tr class="header" id="2"> <td colspan="1">Social Media</td> </tr>
-                <tr class="child-2"> <td>Twitter</td> </tr>
-                <tr class="child-2"> <td>#Hashtags</td> </tr>
-                <tr class="child-2"> <td>Instagram</td> </tr>
-                <tr class="child-2"> <td>Facebook</td> </tr>
-                <tr class="child-2"> <td>What's up Uppsala</td> </tr>
+                <tr class="header" id="2"> <td colspan="1">Issues</td> </tr>
+                <tr class="child-2"> <td>Belysning</td> </tr>
+                <tr class="child-2"> <td>Cykelpumpar</td> </tr>
+                <tr class="child-2"> <td>Vägar</td> </tr>
 
                 <tr class="header" id="3"> <td colspan="1">Issue Reporting</td> </tr>
                 <tr class="child-3"> <td>Ongoing issues</td> </tr>
@@ -66,11 +66,27 @@
 </div>
 
 <div id="widgetsMain">
-    <div class="widget" id="bikeInfo">
+    <div class="widget" id="areaList">
+        <table>
+            <tr>
+                <th width="100%" colspan="1"> Area </th>
+            </tr>
+            <tr>
+                <th class="infoHeader">Category</th>
+                <th class="infoHeader">Adress</th>
+            </tr>
+            <tr>
+                <th class="infoList">Category</th>
+                <th class="infoList">Adress</th>
+                <th><button class="areaListButton">X</button></th>
+            </tr>
+            <tr>
+                <th class="infoList">Second thing</th>
+                <th><button class="areaListButton">X</button></th>
+            </tr>
+        </table>
     </div>
-    <div class="widget" id="socialMedia">
-    </div>
-    <div class="widget" id="issueReporting">
+    <div class="widget" id="issueList">
     </div>
 </div>
 

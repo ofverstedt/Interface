@@ -7,7 +7,6 @@
     background-color: #1f548e;
     /*border: 1px solid green;*/
 }
-
 #top{
     width: 75%;
     height: 100%;
@@ -15,12 +14,14 @@
     margin-right: auto;
     align-content: center;
     /*border: 1px solid yellow;*/
+
 }
 
 #kommunLogga{
     max-height: 100%;
     float: left;
     /*border: 1px solid yellow;*/
+
 }
 
 #topMenu{
@@ -91,6 +92,7 @@ thead{
     font-weight: bold;
     font-size: 18pt;
     background-color: rgba(255,255,255,0.6);
+
 }
 
 #checkTable{
@@ -99,6 +101,7 @@ thead{
     border-collapse: collapse;
     background-color: rgba(255,255,255,0.3);
     color: gray;
+
 }
 
 .header{
@@ -131,30 +134,36 @@ tr:hover{
 }
 
 .widget{
-    height: 170%;
-    width: 33.3333%;
+    height: 80%;
+    width: 30%;
     border: 1px;
+}
+
+
+#areaList{
     display: none;
+    float: left;
+    overflow: scroll;
+}
+.areaListButton{
+    float: right;
+    width: 10%;
+
 }
 
+.infoHeader{
+    border: 1px solid black;
+    width: 40%;
+}
 
-#BikeInfo{
+.infoList{
+    border: 1px solid black;
+    width: 40%;
+}
 
-    float: left;
-    background-color: blue;
+#issueList{
+    display: none;
+    float:right;
     overflow: scroll;
 }
 
-#socialMedia{
-
-    float: left;
-    background-color: gray;
-    overflow: scroll;
-}
-
-#issueReporting{
-
-    float: left;
-    background-color: yellow;
-    overflow: scroll;
-}
