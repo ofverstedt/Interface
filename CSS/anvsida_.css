@@ -1,37 +1,79 @@
-.menyfoto{
-	width:10%;
-	height:99%;
+#header-container{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #1f548e;
 }
 
-.meny{
-	width:100%;
-	height:10%;
-	background-color:#1f548e; 
+#top{
+    width: 75%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    /*border: 1px solid yellow;*/
+
+}
+
+#kommunLogga{
+    max-height: 100%;
+    float: left;
+    /*border: 1px solid yellow;*/
+
+}
+
+#topMenu{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+#topMenu div{
+    position: relative;
+    width: 20%;
+    height: 90%;
+    margin-left:4%;
+    float: left;
 }
 
 .rubriker{
-	display:inline-block;
-	font-size: 20px;
-	font-family: Arial; 
-	width: 20%
-	height:20%;
-	color:#ffffff;
-}
-
-.gulkant{
-	height:2%;
-	width: 100%;
-	background-color:#FFCC00;
+    position: absolute;
+    bottom: 5%;
+    font-size: 20px;
+    font-family: Arial;
+    height:20%;
+    color:#ffffff;
+    text-decoration: none;
 }
 
 .searchbar{
-	float: right;
+    float: right;
 }
 
-.checkleft{
+#border-container{
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    height: 2%;
+    width: 100%;
+}
+.gulkant{
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    width: 75%;
+    background-color:#FFCC00;
+}
+
+
+#checkContainer{
 	float: left;
 	width:21%;
-	height:60%;
+	height:100%;
 	overflow: scroll;
 	position: absolute;
 	background-color: rgba(255,255,255,0.4);
@@ -39,17 +81,20 @@
 
 
 
-.map{
-	background-image: url("http://vb.uppsala.se/PageFiles/4281/kartbild_redigerad-1.jpg"); 
-	float: right;
-	width:100%;
-	height:61%;
+#map{
+    background-image: url("http://vb.uppsala.se/PageFiles/4281/kartbild_redigerad-1.jpg");
+    position: absolute;
+    top: 12%;
+    left: 0px;
+    width:100%;
+    height:60%;
+    overflow: scroll;
 }
 
 thead{
 	font-weight: bold;
 	font-size: 18pt;
-	background-color: rgba(255,255,255,0.6);
+	background-color: rgba(255,255,255,1);
 
 }
 
@@ -66,7 +111,7 @@ table{
 	cursor: pointer;
 	font-family: Arial; 
 	font-size:14pt;
-	background-color: rgba(255,255,255,0.3);
+	background-color: rgba(255,255,255,0.6);
 }
 
 td{
@@ -83,37 +128,36 @@ td{
 	background-color: rgba(0,255,255,0.9);
 }
 
-.widgetsMain{
-	float: bottom;
-	width:100%;
-	height:28%;
-	overflow: scroll;
+#widgetsMain{
+    width:100%;
+    height:28%;
+    position: absolute;
+    top: 72%;
+    left: 0px;
+    overflow: scroll;
 }
+
 
 .widget{
 	height: 80%;
-	width: 30%;
-	
+	width: 33.333%;
 	border: 1px;
+	float: left;
 }
 
 
 #BikeInfo{
 	display: none;
-	float: left;
+	background-color: gray;
 }
 
-#SocialMedia{
+#socialMedia{
 	display: none;
-	float:right;
+	background-color: yellow;
 }
 
-.MediaPic{
-	height: 100%;
-	width: 50%;
+#issueReporting{
+	display: none;
+	background-color: blue;
 }
 
-.bikePic{
-	height: 100%;
-	width: 50%;
-}
