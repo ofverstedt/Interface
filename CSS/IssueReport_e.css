@@ -130,6 +130,7 @@ tr:hover{
     float: right;
     position: relative;
     overflow: scroll;
+    background-color: #000000;
 }
 
 .widget{
@@ -162,6 +163,7 @@ tr:hover{
 .infoHeader{
     border: 1px solid black;
     width: 45%;
+    background-color: #ffffff;
 }
 
 .infoHeader:hover{
@@ -171,6 +173,10 @@ tr:hover{
 .infoList{
     border: 1px solid black;
     width: 45%;
+    background-color: #ffffff;
+}
+.infoList:hover{
+    background-color: antiquewhite;
 }
 
 #issueList{
@@ -194,6 +200,6 @@ tr:hover{
 }
 
 #infoLista td:hover {
-    background-color: navajowhite;
+    background-color: antiquewhite;
 }
 
