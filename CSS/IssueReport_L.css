@@ -1,0 +1,157 @@
+#header-container{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #1f548e;
+    /*border: 1px solid green;*/
+}
+
+#top{
+    width: 75%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    /*border: 1px solid yellow;*/
+}
+
+#kommunLogga{
+    max-height: 100%;
+    float: left;
+    /*border: 1px solid yellow;*/
+}
+
+#topMenu{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+#topMenu div{
+    position: relative;
+    width: 20%;
+    height: 90%;
+    margin-left:4%;
+    float: left;
+}
+
+.rubriker{
+    position: absolute;
+    bottom: 5%;
+    font-size: 20px;
+    font-family: Arial;
+    height:20%;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.searchbar{
+    float: right;
+}
+
+#border-container{
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    height: 2%;
+    width: 100%;
+}
+.gulkant{
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    width: 75%;
+    background-color:#FFCC00;
+}
+
+#map{
+    background-image: url("http://vb.uppsala.se/PageFiles/4281/kartbild_redigerad-1.jpg");
+    position: absolute;
+    top: 12%;
+    left: 0px;
+    width:100%;
+    height:100%;
+    overflow: scroll;
+}
+
+#checkLeft{
+    float: left;
+    width:21%;
+    height:100%;
+    overflow: scroll;
+    position: relative;
+    background-color: rgba(255,255,255,0.4);
+}
+
+thead{
+    font-weight: bold;
+    font-size: 18pt;
+    background-color: rgba(255,255,255,0.6);
+}
+
+#checkTable{
+    font-family: arial;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255,255,255,0.3);
+    color: gray;
+}
+
+.header{
+    cursor: pointer;
+    font-family: Arial;
+    font-size:14pt;
+    background-color: rgba(255,255,255,0.3);
+}
+
+td{
+    padding: 15px
+}
+
+.child{
+    font-family:Arial;
+    font-size: 11pt;
+}
+
+tr:hover{
+    background-color: rgba(255,255,255,0.9);
+ }
+
+#widgetsMain{
+    width:30%;
+    height:100%;
+    float: right;
+    overflow: scroll;
+    position: relative;
+    
+}
+
+.widget{
+    height: 100%;
+    width: 100%;
+    border: 1px;
+    display: none;
+}
+
+
+#BikeInfo{
+    background-color: blue;
+    overflow: scroll;
+    position: absolute;
+}
+
+#socialMedia{
+    background-color: gray;
+    overflow: scroll;
+     position: absolute;
+}
+
+#issueReporting{
+    background-color: yellow;
+    overflow: scroll;
+    position: absolute;
+}
