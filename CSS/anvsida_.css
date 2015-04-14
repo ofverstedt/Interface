@@ -143,12 +143,15 @@ td{
 	width: 33.333%;
 	border: 1px;
 	float: left;
+	overflow: scroll;
+	height: 160%;
 }
 
 
 #BikeInfo{
 	display: none;
 	background-color: gray;
+
 }
 
 #socialMedia{
