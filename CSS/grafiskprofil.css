@@ -1,0 +1,64 @@
+
+/***********************************************************************************
+
+Text fonts
+ 
+(det kommer väl behövas flera olika typer av headers? vilka?)
+
+***********************************************************************************/
+
+.body-text { font-family: "Times New Roman", Times, Serif; font-style: normal; }
+
+.header { font-family: "Arial", Arial, sans-serif; font-style: normal; }
+
+
+
+/***********************************************************************************
+
+Color Reference:;
+
+The colors might be used in different intensity
+
+Alternative 1 for changing the intensity.
+Alternative 2 (color-hex) to use fixed color.
+
+	yellow: color: 0, 15, 94, 0;    OR   color: #fcd116;
+	red: 	color: 0, 91, 76, 0;    OR   color: #e8112d;
+	blue: 	color: 100, 43, 0, 0;   OR   color: #1f548e;
+	green:	color: 100, 0, 79, 8;   OR 	 color: #009E60;
+
+
+Copy color code from below and paste into your code sheet. 
+***********************************************************************************/
+
+.yellow {
+	color: 0, 15, 94, 0;
+}
+
+.yellow-hex {
+	color: #fcd116;
+}
+
+.red { 
+	color: 0, 91, 76, 0;
+}
+
+.red-hex {
+	color: #e8112d;
+}
+
+.blue {
+	color: 100, 43, 0, 0;
+}
+
+.blue-hex {
+	color: #1f548e;
+}
+
+.green {
+	color: 100, 0, 79, 8;
+}
+
+.green-hex {
+	color: 100, 0, 79, 8;
+}
