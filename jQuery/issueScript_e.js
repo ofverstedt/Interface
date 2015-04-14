@@ -13,6 +13,8 @@ $(document).ready(function(){
         $('#issueList').fadeToggle('fast');
 
 
+        printIssueList(listOverIssues);
+
 
     });
 
@@ -23,22 +25,24 @@ $(document).ready(function(){
 
     $("tr[class^=child-]").hide().children('tr');
 
+    function printIssueList(listOverIssues){
+        for (i=0; i<listOverIssues.length; i++){
+            if(i%2===0){
+                tr = document.createElement("tr");
+            }
+            td = document.createElement("td");
+            td.setAttribute("id","td"+i.toString());
+            td.innerHTML = listOverIssues[i];
+            tr.appendChild(td);
+            document.getElementById("infoLista").appendChild(tr);
+        }
+    }
+
+
+    var tr, td;
+    var listOverIssues = ["Belysning", "Fålhagen", "Gator", "Stenhagen", "Soptunnor", "Kåbo", "Vatten", "Ekeby"];
 });
 
-var listOverIssues = ["Belysning", "Fålhagen", "Gator", "Stenhagen", "Soptunnor", "Kåbo", "Vatten", "Ekeby"];
 
-function printIssueList(listOverIssues){
-    for (i=0; i<listOverIssues.length; i++){
-        if(i%2===0){
-            tr = document.createElement("tr");
-        }
-        td = document.createElement("td");
-        td.setAttribute(i.toString());
-        tr.appendChild(td);
-        document.getElementById("infoLista").appendChild(tr);
-    }
-}
 
-function showList() {
-    issueList.fadeToggle("fast");
-}
+
