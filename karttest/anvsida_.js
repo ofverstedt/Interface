@@ -20,9 +20,9 @@ $(document).ready(function(){
 			$(this).siblings('.child-'+this.id).toggle('fast');
 		});
 	$('tr[class^=child-]').hide().children('tr');
+});
 
-
-var myCenter=new google.maps.LatLng(59.858698,17.646150);
+/* var myCenter=new google.maps.LatLng(59.858698,17.646150);
 
 function initialize()
 {
@@ -61,7 +61,7 @@ google.maps.event.addListener(marker, 'click', function() {
 
 google.maps.event.addDomListener(window, 'load', initialize);
 });	
-
+*/
 
 
 

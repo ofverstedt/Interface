@@ -13,12 +13,15 @@
 <link rel="stylesheet" type="text/css" href="anvsida_.css">
 <script src="jquery-1.11.2.min.js"></script>
 <script src="anvsida_.js"></script>
+<script src="mappoints.js"></script>
+<script src="datatomap.js"></script>
+
 </head>
 
 
-<body>
 
-<body>
+
+<body onload="onloading()">
 <div id="header-container">
     <header id="top">
 
@@ -65,14 +68,24 @@
                 <a href="#"><tr class="child-1"> <td>Svartbäcken</td> </tr></a>
 
                 <tr class="header" id="2"> <td colspan="1">Issues</td> </tr>
-                <tr class="child-2"> <a href="#"><td>Belysning</td> </tr>
-                <tr class="child-2"> <td>Cykelpumpar</td> </tr>
-                <tr class="child-2"> <td>Vägar</td> </tr>
+                <tr class="child-2"> <a href="#"><td>Vegetation <input type="checkbox" id="checkBelaggning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Beläggning <input type="checkbox" id="checkBelaggning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Renhållning <input type="checkbox" id="checkRenhallning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Skyltning <input type="checkbox" id="checkSkyltning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Snöröjning <input type="checkbox" id="checkSnorojning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Målning <input type="checkbox" id="checkMalning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Övrigt <input type="checkbox" id="checkOvrigt" onclick="checkPump()"></td> </tr>
 
                 <tr class="header" id="3"> <td colspan="1">Issue Reporting</td> </tr>
                 <tr class="child-3"> <td>Ongoing issues</td> </tr>
                 <tr class="child-3"> <td>Current events</td> </tr>
                 <tr class="child-3"> <td>Points of interest</td> </tr>
+
+                <tr class="header" id="4"> <td colspan="1">Cykel</td> </tr>
+                <tr class="child-4"> <td>Cykelpumpar <input type="checkbox" id="checkPumps" onclick="checkPump()"></td> </tr>
+                <tr class="child-4"> <td>Cykelverkstäder: <input type="checkbox" id="checkVerkstad" onchange="checkVerkstad()"></td> </tr>
+                <tr class="child-4"> <td>Cykelparkering: <input type="checkbox" id="checkParkering" onchange="checkParkering()"></td> </tr>
+                
 
             </tbody>
         </table>
