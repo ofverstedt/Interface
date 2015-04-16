@@ -1,6 +1,6 @@
 .widget{
 
-	height:56%;
+	height:47%;
 	width:33.333%;
 	border:2px solid black;
 	border-radius: 10px;
@@ -26,6 +26,15 @@
 	background-color: #D6D6D3;
 }
 
+#twitterLogga{
+
+	max-width: 90%;
+	max-height: 90%;
+    float: right;
+    padding-top:1px;
+    
+}
+
 h4{
 
 	font-family: Verdana;
@@ -36,21 +45,38 @@ h4{
 	margin-top: 0px;
 }
 
+
+table{
+	font-family: arial;
+	width: 100%;
+	border-collapse: collapse;
+	background-color: rgba(255,255,255,0.3);
+	color: gray;
+
+}
+
+
+td{
+	padding: 15px
+}
+
+.child-1{
+	cursor: pointer;
+	font-family:Verdana;
+	font-size: 10pt;
+}
+
 tbody tr:hover { 
     background-color: rgba(255,255,255,0.3);
 }
 
 tr:nth-child(even) td { 
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.2);
     padding: 15px;
 
 }  
 
 tr:nth-child(odd) td { 
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.3);
     padding: 15px;
 }  
-
-
-
-

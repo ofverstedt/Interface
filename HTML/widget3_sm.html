@@ -2,8 +2,8 @@
 
 
 <head>
-<title>Widget 2</title>
-<link rel="stylesheet" type="text/css" href="../CSS/widget2_sm.css">
+<title>Widget 3</title>
+<link rel="stylesheet" type="text/css" href="../CSS/widget3_sm.css">
 </head>
 
 <body>
@@ -16,33 +16,76 @@
 	<div class="top">
 
 		<img id="twitterLogga" src="https://cdn.serinus42.com/2736c696f21f302/uploads/c/300/a4e0b/twitter-logo_22.png" alt="Twitters logotyp">
-		<h4>Popular tweets</h4>
+		<h4>Search for words to find tweets!</h4>
 	</div>
 
-	<div class="right">
+
+	<div class="left">
 
 		<div class="mellanTop">
-			<p class="text1">Try and search for another tweet!</p>
+			<p class="text1">Step 1 - Search for a word</p>
 
 		</div>
 
+	</br>
+
 		<form method="get" id="search">
-              <input type="text" class="search" value="Search for a tweet" onblur="if(this.value == '') { this.value = 'Type and hit enter'; }" onfocus="if(this.value == 'Type and hit enter') { this.value = ''; }" name="s">
+              <input type="text" class="search" value="Search!" onblur="if(this.value == '') { this.value = 'Type and hit enter'; }" onfocus="if(this.value == 'Type and hit enter') { this.value = ''; }" name="s">
               <button type="submit">Submit</button>
 </form>
 
 
 	</div>
 
-	<div class="left">
+
+	<div class="right">
 
 		<div class="mellanTop">
-			<p class="text1">Most recently published tweets!</p>
-		</div>	
+			<p class="text1">Step 2 - filter your search!</p>
 
-		<table>
+		</div>
+
+
+
+		<form class="filter" id="checkboxes">
+
+		<input type="checkbox" id="c1" name="cc" />
+		<label for="c1">Days</label> <br />
+
+		<input type="checkbox" id="c2" name="c2" />
+		<label for="c2">Week</label><br />
+
+		<input type="checkbox" id="c3" name="c3" />
+		<label for="c3">Month</label><br />
+
+		<input type="checkbox" id="c4" name="c4" />
+		<label for="c4">Year</label><br />
+ 
+		<br>
+
+
+		<input type="reset" name="rensa" id="rensa" class="knapp rensa" value="Rensa" />
+
+
+		</form>
+</div>
+
+
+	<div class="bottom">
+
+		<div class="mellanTop">
+			<p class="text1">Step 3 - click to view full tweet!</p>
+
+		</div>
+
+		
+			<table>
 
             	<tbody>
+
+            		<tr>
+                    <th width="100%"></th>
+                </tr>
 
                 <a href="#"><tr class="child-1"> <td>Tweet 1</td> </tr></a>
                 <a href="#"><tr class="child-1"> <td>Tweet 2</td> </tr></a>
@@ -61,12 +104,23 @@
                 <a href="#"><tr class="child-1"> <td>Tweet 15</td> </tr></a>
                 <a href="#"><tr class="child-1"> <td>Tweet 16</td> </tr></a>	
 
-            </tbody>
+           		 </tbody>
 
 
-		</table>
+
+			</table>
+
+
 
 	</div>
+
+
+</div>
+
+
+
+
+
 
 
 
