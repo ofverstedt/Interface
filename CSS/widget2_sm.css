@@ -128,8 +128,8 @@ tr:nth-child(odd) td {
 }
 
 #search button {
-	background: url("http://png-5.findicons.com/files/icons/772/token_light/128/search.png") no-repeat scroll center center #1f548e;
-	cursor: pointer;
+	background: url("http://www.veryicon.com/icon/png/System/Radium/Search.png") no-repeat scroll center center #1f548e;
+	background-size: 80% 80%;
 	height: 30px;
 	text-indent: -99999em;
 	transition: background 0.3s ease-in-out 0s;
