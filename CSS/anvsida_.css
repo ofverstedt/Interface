@@ -164,3 +164,30 @@ td{
 	display: none;
 	background-color: blue;
 }
+
+#search input {
+    background: none repeat scroll 0 0 #fff;
+    border: 0 none;
+    color: #7F7F7F;
+    float: left;
+    font: 12px 'Helvetica','Lucida Sans Unicode','Lucida Grande',sans-serif;
+    height: 30px;
+    margin: 0;
+    padding: 10px;
+    transition: background 0.3s ease-in-out 0s;
+    width: 80%;
+}
+
+#search button {
+    background: url("http://png-5.findicons.com/files/icons/772/token_light/128/search.png") no-repeat scroll center center #1f548e;
+    cursor: pointer;
+    height: 30px;
+    text-indent: -99999em;
+    transition: background 0.3s ease-in-out 0s;
+    width: 41px;
+    border: 2px solid #fff;
+}
+
+#search button:hover {
+    background-color: rgba(255,255,255,0.3);
+}

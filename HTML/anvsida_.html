@@ -24,10 +24,11 @@
             <div><a class="rubriker" href="IssueReport.html">Contact</a></div>
             <div><a class="rubriker" href="IssueReport.html">Language</a></div>
         </div>
-       <form method="post" class="iconr">
-        <input type="text" placeholder="Search on Uppsala.se">
-        <button type="submit" value="search"></button>
-       </form>
+     
+        <form method="get" id="search">
+        <input type="text" class="search" value="Search for a tweet" onblur="if(this.value == ''){ this.value = 'Type and hit enter'; }" onfocus="if(this.value == 'Type and hit enter') { this.value = ''; }" name="s">
+        <button type="submit">Submit</button>
+        </form>
  
 
     </header>
